@@ -1,0 +1,39 @@
+/*
+ * Colors, fonts and other non-layout styling.
+ */
+body {
+   font-family: arial, sans-serif;
+   font-size: 17px;
+   color: #444444;
+   background-color: #ECB722;
+}
+header {
+  background-color: #03A3DF;
+}
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #1B447F;
+}
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1B447F;
+}
+h3 {
+  font-size: 17px;
+  font-weight: bold;
+  color: #1B447F;
+}
+.quote {
+  font-size: 30px;
+  color: #03A3DF;
+}
+.quote-author {
+  font-size: 14px;
+  font-weight: bold;
+  color: #03A3DF;
+}
+nav li:hover {
+  background-color: darkorange;
+}
