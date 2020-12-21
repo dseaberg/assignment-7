@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Straight to the Point Archery - Contact</title>
+    <link rel="stylesheet" type="text/css"  href="./styles/styles.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>Straight to the Point Archery</h1>
+      <img src="./images/archeryAcademy-logo-white.png" alt="White logo">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="signup.html">Lessons</a></li>
+          <li><a href="meet-us.html">Instructors</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article class="contact-us">
+        <h2>Get in Touch</h2>
+        <form method="get">
+          <label for="first-name">First Name
+            <input type="text" name="first-name" id="first-name">
+          </label>
+
+          <label for="last-name">Last Name
+            <input type="text" name="last-name" id="last-name">
+          </label>
+
+          <label for="email-address">Email
+            <input type="email" name="email-address" id="email-address">
+          </label>
+
+          <fieldset>
+            <legend>I'm interested in:</legend>
+            <label for="group-classes">Group Classes
+              <input type="checkbox" name="interested-in[]" id="group-classes" value="group-classes">
+            </label>
+            <label for="private-lessons">Private Lessons
+              <input type="checkbox" name="interested-in[]" id="private-lessons" value="private-lessons">
+            </label>
+            <label for="open-range">Open Range
+              <input type="checkbox" name="interested-in[]" id="open-range" value="open-range">
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>With instructor:</legend>
+            <label for="instructor-derek">Derek
+              <input type="radio" name="intructor-choice" id="instructor-derek" value="instructor-derek">
+            </label>
+            <label for="instructor-amy">Amy
+              <input type="radio" name="intructor-choice" id="instructor-amy" value="instructor-amy">
+            </label>
+            <label for="instructor-nathan">Nathan
+              <input type="radio" name="intructor-choice" id="instructor-nathan" value="instructor-nathan">
+            </label>
+          </fieldset>
+
+          <input type="submit" name="submit" value="send">
+        </form>
+      </article>
+    </main>
+
+    <footer>
+      <img class="footer-logo" src="./images/archeryAcademy-logo-color.png" alt="Blue logo">
+      <p>
+        Next Step Archery admits students of any race, gender presentation, sexuality, religion, national origin or ethnic origin to all rights, privileges, programs and activities available to students at the school. We do not discriminate in administration of our educational policies, admission policies and other school administered programs. All students are welcome and valuable members of our community.
+      </p>
+      <img class="footer-image" src="./images/footerImage.jpg" alt="Bunch of arrows">
+    </footer>
+  </body>
+</html>
