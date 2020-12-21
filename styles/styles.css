@@ -37,6 +37,14 @@ h3 {
 nav li:hover {
   background-color: darkorange;
 }
+input[type="submit"] {
+  color: #1B447F;
+  background-color: #03A3DF;
+  font-weight: bold;
+}
+input[type="submit"]:hover {
+  border: 2px solid red;
+}
 
 /*
  * Layout-related styling: header and footer
@@ -145,3 +153,18 @@ video {
    grid-column: 1 / 2;
    grid-row: 2 / 3;
  }
+
+ /*
+  * Layout-related styling: contact-us page
+  */
+ form {
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+ }
+form > * {
+  margin: 1% 0%;
+}
+input[type="submit"] {
+  width: 50%;
+}
